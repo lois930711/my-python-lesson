@@ -1,0 +1,23 @@
+
+
+def create_cat():
+    cat_type = '美短'
+    cat_name = str(input('cat name: '))
+
+    print('the cat is created.')
+
+    def miao():
+        print('miao,我是' + cat_name)
+
+    return miao
+
+
+miao_address = create_cat()
+miao_address()
+
+
+def miao():
+    cat_type = '美短'
+    cat_name = str(input('cat name: '))
+    print('the cat is created.')
+    print('miao,我是' + cat_name)
