@@ -1,2 +1,2 @@
-# my-python-lesson
-my-python-lesson
+# 项目说明
+仅供自己学习使用。
